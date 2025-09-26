@@ -20,7 +20,7 @@ def inicio():
         body { 
             font-family: Arial, sans-serif; 
             margin: 50px; 
-            background-color: #f5f5f5; 
+            background-color: #1e414a; 
         }
         .container { 
             background-color: white; 
@@ -404,3 +404,4 @@ import os
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port, debug=False)
+
